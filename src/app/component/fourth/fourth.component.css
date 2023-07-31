@@ -1,0 +1,54 @@
+.how {
+  font-size: 25px;
+  font-weight: 700;
+  padding-top: 70px;
+  text-align: center;
+}
+.flex {
+  display: flex;
+  justify-content: center;
+  padding-top: 50px;
+}
+.des {
+  padding-top: 30px;
+  width: 130px;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+}
+.circle {
+  width: 100px;
+  height: 100px;
+  border: 2px solid grey;
+  border-radius: 50%;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: wheat;
+  border-top: 2px 2px solid red;
+  gap: 20px;
+}
+.media {
+  display: none;
+}
+.fouth {
+  height: auto;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+.how {
+  padding-top: 40px;
+}
+
+@media (max-width: 768px) {
+  .flex {
+    /* display: block; */
+
+    align-items: center;
+  }
+  .circle {
+    margin-left: auto;
+    margin-right: auto;
+  }
+}

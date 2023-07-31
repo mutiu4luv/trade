@@ -1,0 +1,17 @@
+.example-spacer {
+  flex: 1 1 auto;
+}
+.flex {
+  display: flex;
+  gap: 20px;
+}
+mat-toolbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+/* Adjust the appearance of the button icon if necessary */
+mat-icon {
+  font-size: 24px;
+}

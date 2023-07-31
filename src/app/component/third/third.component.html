@@ -1,0 +1,17 @@
+<div class="third">
+  <h1 class="trading">Trading conditions and tools for every kind of trader</h1>
+
+  <div class="card" *ngFor="let item of items">
+    <div class="example-card">
+      <mat-card>
+        <mat-card-header>
+          <img [src]="item.image" alt="Image" />
+        </mat-card-header>
+        <mat-card-content>
+          <h1>{{ item.title }}</h1>
+          <p>{{ item.description }}</p>
+        </mat-card-content>
+      </mat-card>
+    </div>
+  </div>
+</div>
